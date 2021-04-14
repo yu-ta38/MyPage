@@ -12,13 +12,13 @@
 
 #Header-Design li a {
     text-decoration:none;
-    color:aquamarine;
+    color:darkslategrey;
     font-weight:bold;
 }
 
 section {
-    width: 50%;
-    height:50%;
+    width: 500px;
+    height:500px;
     margin-left:10px;
     display:inline-block;
     border-color:darkcyan;
