@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+header {
+    background-color:coral;
+}
+
 #Header-Design {
     list-style:none;
 }
@@ -20,14 +24,16 @@ section {
     width: 500px;
     height:500px;
     margin-left:10px;
-    border-color:darkcyan;
+    border-color:black;
 }
 
 #content1 {
+    width:200px;
     display:inline-block;
 }
 
 #content2 {
+    width:200px;
     display:inline-block;
 }
 
