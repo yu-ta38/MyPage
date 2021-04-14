@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+header {
+    width:50%;
+    height:50%;
+    background-color:#000000;
+}
+
 #Main-Title {
     background-color:#66cc33;
 }
