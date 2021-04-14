@@ -2,13 +2,12 @@
 
 #Header-Design {
     list-style:none;
-    overflow:hidden;
 }
 
 #Header-Design li {
     width:140px;
     text-align:center;
-    float:left;
+    display:inline-block;
 }
 
 #Header-Design li a {
