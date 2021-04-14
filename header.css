@@ -6,6 +6,11 @@ header {
     background-color:#000000;
 }
 
+#Header-Make {
+    margin-left:10px;
+    float: left;
+}
+
 #Main-Title {
     background-color:#66cc33;
 }
