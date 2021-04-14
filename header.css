@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-#Header-Make {
-    width:200px;
-    height:200px;
-    border-color:chocolate;
-}
-
 #Header-Design {
     list-style:none;
     overflow:hidden;
