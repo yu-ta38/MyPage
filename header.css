@@ -4,6 +4,7 @@ header {
     width:200px;
     height:200px;
     background-color:#000000;
+    border-color:chocolate;
 }
 
 #Header-Make {
@@ -11,6 +12,3 @@ header {
     float: left;
 }
 
-#Main-Title {
-    background-color:#66cc33;
-}
