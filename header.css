@@ -20,8 +20,15 @@ section {
     width: 500px;
     height:500px;
     margin-left:10px;
-    display:inline-block;
     border-color:darkcyan;
+}
+
+#content1 {
+    display:inline-block;
+}
+
+#content2 {
+    display:inline-block;
 }
 
 footer {
