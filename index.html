@@ -2,6 +2,12 @@
 
 <script>function f(){
 c = document.getElementById("id").getContext("2d");
+c.beginPath();
+c.moveTo(100, 100);
+c.lineTo(200, 200);
+c.beginPath();
+c.fillRect(0, 0, 50, 50);
+
 }</script>
 <body onload="f()">
 <canvas id="id" width="500" height="500" />
