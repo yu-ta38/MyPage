@@ -1,17 +1,1 @@
 @charset "utf-8";
-
-#content1 {
-    width: 50%;
-    height:50%;
-    margin-left:10px;
-    float:left;
-    border-color:darkcyan;
-}
-
-#content2 {
-    width: 50%;
-    height:50%;
-    margin-left:10px;
-    float:left;
-    border-color:darkcyan;
-}

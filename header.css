@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-header {
+#Header-Make {
     width:200px;
     height:200px;
     border-color:chocolate;
@@ -25,3 +25,16 @@ header {
     padding:20px;
 }
 
+section {
+    width: 50%;
+    height:50%;
+    margin-left:10px;
+    float:left;
+    border-color:darkcyan;
+}
+
+footer {
+    border-style:solid;
+    border-color:bisque;
+    padding:20px;
+}
