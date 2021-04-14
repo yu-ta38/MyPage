@@ -7,7 +7,21 @@ header {
 }
 
 #Header-Design {
-    margin-left:10px;
-    float: left;
+    list-style:none;
+    overflow:hidden;
+}
+
+#Header-Desigh li {
+    width:140px;
+    text-align:center;
+    float:left;
+    mergin-right:2px;
+}
+
+#Header-Design li a {
+    text-decoration:none;
+    color:aquamarine;
+    font-weight:bold;
+    padding:20px;
 }
 
