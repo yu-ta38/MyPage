@@ -20,7 +20,7 @@ section {
     width: 50%;
     height:50%;
     margin-left:10px;
-    float:left;
+    display:inline-block;
     border-color:darkcyan;
 }
 
