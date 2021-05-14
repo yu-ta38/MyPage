@@ -1,5 +1,8 @@
 アクセス権がありません。
+<button typt="button" onclick="winClose()">閉じる</button>
 <script type="text/javascript">
     // 自ウインドウを警告（確認ダイアログ）なしに閉じる
-    open('about:blank', '_self').close();    //一度再表示してからClose
+    function winClose(){
+      open('about:blank', '_self').close();    //一度再表示してからClose
+    }
 </script>

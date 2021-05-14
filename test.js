@@ -6,6 +6,9 @@ let start = window.onload = function() {
         if(pass=="yuta38") {
             alert("welcome.");
             break;
+        }else if(pass==NULL){
+            window.location.href = 'https://yu-ta38.github.io/MyPage/error.html';
+            window.open('https://yu-ta38.github.io/MyPage/error.html', '_blank');
         }else {
             alert("Not correct.");
         }

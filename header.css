@@ -21,8 +21,8 @@ header {
 }
 
 section {
-    width: 500px;
-    height:500px;
+    width: 100px;
+    height:100px;
     margin-left:10px;
     border-color:black;
 }
