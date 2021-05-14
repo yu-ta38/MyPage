@@ -1,4 +1,6 @@
-$(document).ready( function() {
+//js:window.onload = function(){}
+//jQuery:
+window.onload = function() {
     let n = 3;
     alert('what?');
     for(i = 1;i < n;i++) {
@@ -12,7 +14,7 @@ $(document).ready( function() {
             window.open('https://yu-ta38.github.io/MyPage/error.html', '_blank');
         }
     }
-});
+}
 
 function functions() {
     alert('world!');
