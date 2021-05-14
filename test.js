@@ -1,5 +1,5 @@
 //js:window.onload = function(){}
-let start = window.onload = function() {
+window.onload = function() {
     let n = 3;
     for(i = 0;i < n;i++) {
         let pass = prompt("password?");
