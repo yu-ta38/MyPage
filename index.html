@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="UTF-8">
     <base href="https://yu-ta38.github.io/MyPage/index.html">
     <title>HTML文書のサンプル</title>
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="section.css">
-    <link rel="stylesheet" href="footer.css">
+    <script src="test.js"></script>
   </head>
   <body>
     <header>
@@ -21,26 +20,17 @@
       <div id="content1">
         <p>こんにちは</p>
         <p>こんちには</p>
-        <p>んにちは</p>
+        <p></p>
       </div>
       <div id="content2">
         <p>こんばんわ</p>
-        <p>こんばんわに</p>
-        <p>こんばんは</p>
+        <p>こんばんわ</p>
+        <p></p>
       </div>
     </section>
     <footer>
-      
-      <fieldset>
-        <legend>ユーザー情報</legend>
-        <p>
-          <label>名前：<input name="n"></label>
-          <label><input name="anon" type="checkbox">ちゃんと書いた？</label>
-        </p>
-        <p>
-        <label>明日の朝食：<textarea name="a"></textarea></label>
-        </p>
-        </fieldset>
+      <button type="button" onclick="world()">Hello!</button>
     </footer>
+    <a href="#" onclick="javascript:window.history.back(-1);return false;">Back</a>
   </body>
 </html>
