@@ -1,4 +1,5 @@
 let n = 3;
+alert('what?');
 for(i = 1;i < n;i++) {
     let pass = prompt("password?");
     if(pass=="yuta38") {
