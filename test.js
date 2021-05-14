@@ -1,6 +1,6 @@
 //js:window.onload = function(){}
 //jQuery:
-window.onload = function() {
+let start = window.onload = function() {
     let n = 3;
     alert('what?');
     for(i = 1;i < n;i++) {
