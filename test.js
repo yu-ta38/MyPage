@@ -1,12 +1,13 @@
 //js:window.onload = function(){}
-//jQuery:
 let start = window.onload = function() {
     let n = 3;
-    alert('what?');
-    for(i = 1;i < n;i++) {
+    for(i = 0;i < n;i++) {
         let pass = prompt("password?");
         if(pass=="yuta38") {
-            alert("welcome");
+            alert("welcome.");
+            break;
+        }else {
+            alert("Not correct.");
         }
         if(i==n-1) {
             alert("Error:You are not admin.");
