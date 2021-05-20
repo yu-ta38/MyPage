@@ -30,7 +30,7 @@ function calculate1() {
     const textbox = document.getElementById("math1");
     const inputValue = textbox.value;
     const output5 = inputValue;
-    document.getElementById("output-message").innerHTML = output5;
+    document.getElementById("out_math").innerHTML = output5;
 }
 
 kinput.onkeydown = kinput.onkeyup = kinput.onkeypress = handle;
