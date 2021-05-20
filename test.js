@@ -21,11 +21,11 @@ function functions() {
 function output1() {
     const textbox = document.getElementById("strings");
     const inputValue = textbox.value;
-    const output3 = inputValue;
-    document.getElementById("output-message").innerHTML = output3;
+    document.getElementById("output-message").innerHTML = inputValue;
 }
 
 function calculate1() {
+    alert("確認用");
     const textbox = document.getElementById("math1");
     const inputValue = textbox.value;
     const output5 = inputValue;
