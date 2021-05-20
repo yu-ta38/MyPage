@@ -1,5 +1,5 @@
 //js:window.onload = function(){}
-window.onload = function() {
+/*window.onload = function() {
     let n = 3;
     for(i = 0;i < n;i++) {
         let pass = prompt("password?");
@@ -12,7 +12,7 @@ window.onload = function() {
             window.open('https://yu-ta38.github.io/MyPage/error.html', '_blank');
         }
     }
-}
+}*/
 
 function functions() {
     alert('world!');
@@ -21,7 +21,8 @@ function functions() {
 function output1() {
     const textbox = document.getElementById("strings");
     const inputValue = textbox.value;
-    document.getElementById("output-message").innerHTML = inputValue;
+    const output3 = "入力された内容は 「" + inputValue + "」です。";
+    document.getElementById("output-message").innerHTML = output3;
 }
 
 function calculate1() {
