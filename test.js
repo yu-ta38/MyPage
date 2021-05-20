@@ -50,5 +50,5 @@ function handle(e) {
 }
 
 function checkPhoneKey(key) {
-    return (key >= '0' && key <= '9') || key == '+' || key == '(' || eky == ')' || key == '-';
+    return (key >= '0' && key <= '9') || key == '+' || key == '(' || key == ')' || key == '-';
 }
