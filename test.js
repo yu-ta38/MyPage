@@ -22,14 +22,14 @@ function output1() {
     const textbox = document.getElementById("strings");
     const inputValue = textbox.value;
     const output3 = inputValue;
-    document.getElementById("output-message").inneerHTML = output3;
+    document.getElementById("output-message").innerHTML = output3;
 }
 
 function calculate1() {
     const textbox = document.getElementById("math1");
     const inputValue = textbox.value;
     const output5 = inputValue;
-    document.getElementById("output-message").inneerHTML = output5;
+    document.getElementById("output-message").innerHTML = output5;
 }
 
 kinput.onkeydown = kinput.onkeyup = kinput.onkeypress = handle;
