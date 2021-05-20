@@ -1,4 +1,3 @@
-
 //js:window.onload = function(){}
 window.onload = function() {
     let n = 3;
@@ -19,11 +18,18 @@ function functions() {
     alert('world!');
 }
 
-function calculate1(n) {
+function output1() {
     const textbox = document.getElementById("strings");
     const inputValue = textbox.value;
     const output3 = inputValue;
-    document.getElementById("strings").inneerHTML = output3;
+    document.getElementById("output-message").inneerHTML = output3;
+}
+
+function calculate1() {
+    const textbox = document.getElementById("math1");
+    const inputValue = textbox.value;
+    const output5 = inputValue;
+    document.getElementById("output-message").inneerHTML = output5;
 }
 
 kinput.onkeydown = kinput.onkeyup = kinput.onkeypress = handle;
