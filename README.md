@@ -1,3 +1,3 @@
 # MyPage
 Learning Programming languages with html, CSS, JavaScript.  
-https://yu-ta38.github.io/MyPage/index.html
+https://yu-ta38.github.io/MyPage/index.php
