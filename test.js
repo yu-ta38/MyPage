@@ -20,7 +20,10 @@ function functions() {
 }
 
 function calculate1(n) {
-    alert("n");
+    const textbox = document.getElementById("strings");
+    const inputValue = textbox.value;
+    const output3 = inputValue;
+    document.getElementById("strings").inneerHTML = output3;
 }
 
 kinput.onkeydown = kinput.onkeyup = kinput.onkeypress = handle;
