@@ -1,5 +1,4 @@
 
-
 //js:window.onload = function(){}
 window.onload = function() {
     let n = 3;
@@ -20,5 +19,32 @@ function functions() {
     alert('world!');
 }
 
-function compute1(n) {
+function calculate1(n) {
+}
+
+kinput.onkeydown = kinput.onkeyup = kinput.onkeypress = handle;
+let lastTime = Date.now();
+function handle(e) {
+    if(form.elements[e.type + 'Ignore'].checked) return;
+    let text = e.type + 
+        ' key=' + e.key + 
+        ' code=' + e.code + 
+        (e.shiftKey ? ' shiftKey' : '') + 
+        (e.ctrlKey ? ' ctrlKey' : '') + 
+        (e.altKey ? ' altKey' : '') + 
+        (e.metaKey ? ' metaKey' : '') + 
+        (e.repeat ? ' (repeat)' : '') + 
+        "\n";
+    if(area.value && Date.now - lastTime > 250) {
+        area.value += new Array(81).join('-') + '\n';
+    }
+    lastTime = Date.now();
+    area.value += text;
+    if(form.elements[e.type + 'Stop'].checked) {
+        e.preventDefault();
+    }
+}
+
+function checkPhoneKey(key) {
+    return ((key >= '0' && key <= '9') || key == '+' || key == '(' || eky == ')' || key == '-')
 }

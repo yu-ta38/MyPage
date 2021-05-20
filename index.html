@@ -20,6 +20,7 @@
     <section>
       <div id="content1">
         <p>javaScript練習</p>
+
         <p></p>
       </div>
       <div id="content2">
@@ -30,7 +31,13 @@
     </section>
     <footer>
       <button type="button" onclick="functions()">Hello!</button>
-      
+      <form id="form" onsubmit="return false">
+        <input type="text" placeholder="Press keys here" id="kinput">
+        <textarea id="area"></textarea>
+        <input type="button" value="Clear" onclick="area.value = ''" />
+      </form>
+      <p>phone number input</p>
+      <input onkeydown="return checkPhoneKey(event.key)" placeholder="Phone, please" type="tel">
     </footer>
     <a href="#" onclick="javascript:window.history.back(-1);return false;">Back</a>
   </body>

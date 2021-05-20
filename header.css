@@ -49,3 +49,22 @@ footer {
     background-color:bisque;
     padding:20px;
 }
+
+#kinput {
+    font-size: 150%;
+    box-sizing: border-box;
+    width: 95%;
+}
+
+#area {
+    width: 95%;
+    box-sizing: border-box;
+    height: 250%;
+    border: 1px solid black;
+    display: block;
+}
+
+form label {
+    display: inline;
+    white-space: nowrap;
+}
