@@ -20,6 +20,7 @@ function functions() {
 }
 
 function calculate1(n) {
+    alert("n");
 }
 
 kinput.onkeydown = kinput.onkeyup = kinput.onkeypress = handle;
@@ -46,5 +47,5 @@ function handle(e) {
 }
 
 function checkPhoneKey(key) {
-    return ((key >= '0' && key <= '9') || key == '+' || key == '(' || eky == ')' || key == '-')
+    return (key >= '0' && key <= '9') || key == '+' || key == '(' || eky == ')' || key == '-';
 }
